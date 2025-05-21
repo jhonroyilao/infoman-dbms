@@ -1,75 +1,49 @@
-# 🧾 Instructions for Working with Git and GitHub
+# Git & GitHub Workflow Guide
 
-This guide will help you properly contribute your code to the repository for our project.
+This guide will walk you through the steps to properly contribute your code to the project. Let’s keep everything clean, organized, and conflict-free!
 
 ---
 
-## ✅ 1. Clone the Repository (First Time Only)
+## Step 1: Get the Project on Your Local Machine
 
-If you haven’t cloned the repository yet, do this:
+Run this command in your terminal once to copy the repository to your computer:
 
 ```bash
 git clone https://github.com/jhonroyilao/infoman-dbms.git
 cd infoman-dbms
 ```
-
 ---
 
-## ✅ 2. Create a New Branch (Avoid Conflicts)
-
-Before making changes, **create your own branch**:
-
+## Step 2: Create your own branch
 ```bash
-git checkout -b your-branchname
+git checkout -b your-branch-name
 ```
 
+## Step 3: Make Your Edits
+1. Work on your assigned files
+2. Add new files or folders as needed
+3. Keep your code neat and organized
 ---
 
-## ✅ 3. Make Your Changes
-
-- Work on your assigned files inside the project folder.
-- Create any new files as needed.
-
----
-
-## ✅ 4. Stage and Commit Your Changes
-
-After making changes:
-
+## Step 4: Save and Commit Your Changes
 ```bash
 git add .
-git commit -m "Added a new file"
+git commit -m "Short message about what you changed"
+Tip: Use clear commit messages like "Implemented responsive layout for homepage"
 ```
-
-Use a clear commit message explaining what you did.
-
 ---
 
-## ✅ 5. Push Your Branch to GitHub
-
+## Step 5: Push Your Work Online
 ```bash
-git push origin your-branchname
+git push origin your-branch-name
 ```
-
 ---
 
-## ✅ 6. Open a Pull Request (PR)
+## Step 6: Create a Pull Request
+  1. Go to the GitHub repo: https://github.com/jhonroyilao/infoman-dbms
+  2. Click on the "Compare & pull request" button
+  3. Add a description of your changes
+  4. Submit the pull request
 
-1. Go to the [GitHub repo](https://github.com/jhonroyilao/infoman-dbms).
-2. It will show a prompt to **"Compare & pull request"** for your branch.
-3. Click it and create a pull request so your code can be reviewed and merged.
 
----
 
-## 🔁 If You Need to Update Your Work Later
-
-Pull the latest version from the main branch before doing more work:
-
-```bash
-git checkout main
-git pull origin main
-git checkout your-branchname
-git merge main
-```
-
-Then repeat the `add`, `commit`, and `push` steps.
