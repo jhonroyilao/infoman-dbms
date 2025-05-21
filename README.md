@@ -9,8 +9,8 @@ This guide will help you properly contribute your code to the repository for our
 If you haven’t cloned the repository yet, do this:
 
 ```bash
-git clone https://github.com/icyclestick/MP2.git
-cd MP2
+git clone https://github.com/jhonroyilao/infoman-dbms.git
+cd infoman-dbms
 ```
 
 ---
@@ -20,10 +20,8 @@ cd MP2
 Before making changes, **create your own branch**:
 
 ```bash
-git checkout -b your-name-or-task
+git checkout -b your-branchname
 ```
-
-Replace `your-name-or-task` with something meaningful like `optimized-algo-john`.
 
 ---
 
@@ -40,7 +38,7 @@ After making changes:
 
 ```bash
 git add .
-git commit -m "Added optimized code for [your part]"
+git commit -m "Added a new file"
 ```
 
 Use a clear commit message explaining what you did.
@@ -50,14 +48,14 @@ Use a clear commit message explaining what you did.
 ## ✅ 5. Push Your Branch to GitHub
 
 ```bash
-git push origin your-name-or-task
+git push origin your-branchname
 ```
 
 ---
 
 ## ✅ 6. Open a Pull Request (PR)
 
-1. Go to the [GitHub repo](https://github.com/icyclestick/MP2).
+1. Go to the [GitHub repo](https://github.com/jhonroyilao/infoman-dbms).
 2. It will show a prompt to **"Compare & pull request"** for your branch.
 3. Click it and create a pull request so your code can be reviewed and merged.
 
@@ -70,7 +68,7 @@ Pull the latest version from the main branch before doing more work:
 ```bash
 git checkout main
 git pull origin main
-git checkout your-branch
+git checkout your-branchname
 git merge main
 ```
 
